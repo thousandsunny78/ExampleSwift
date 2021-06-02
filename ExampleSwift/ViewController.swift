@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     // MARK: - Public method
     func goToSigninVC() {
         
-        let vc = SigninVCViewController(nibName: "SigninVCViewController", bundle: nil)
+        let vc = SigninVC(nibName: "SigninVCViewController", bundle: nil)
         navigationController?.pushViewController(vc, animated: true)
     }
     

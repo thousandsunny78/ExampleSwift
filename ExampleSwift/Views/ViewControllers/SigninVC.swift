@@ -7,21 +7,22 @@
 
 import UIKit
 
-class MyViewController: UIViewController {
+class SigninVC: UIViewController {
     @IBOutlet weak var btnClick: UIButton!
     @IBOutlet weak var tfEmailOrPhone: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        tfEmailOrPhone.layer.cornerRadius = 20
-        tfEmailOrPhone.clipsToBounds = true
         btnClick.layer.cornerRadius = 20
     }
 
     @IBAction func doClickSignin(_ sender: Any) {
-        let vc = SigninVCViewController()
-        navigationController?.pushViewController(vc, animated: true)
+//        let vc = BugTrackerVC()
+//        navigationController?.pushViewController(vc, animated: true)
+        
+        let controller = BugTrackerVC()
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
     /*

@@ -15,11 +15,15 @@
 		144DB776265D3A93005C541D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144DB774265D3A93005C541D /* LaunchScreen.storyboard */; };
 		144DB781265D3A94005C541D /* ExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DB780265D3A94005C541D /* ExampleSwiftTests.swift */; };
 		144DB78C265D3A94005C541D /* ExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DB78B265D3A94005C541D /* ExampleSwiftUITests.swift */; };
-		144DB7B9265D4D12005C541D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DB7B7265D4D12005C541D /* MyViewController.swift */; };
-		144DB7BA265D4D12005C541D /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144DB7B8265D4D12005C541D /* MyViewController.xib */; };
+		144DB7B9265D4D12005C541D /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DB7B7265D4D12005C541D /* SigninVC.swift */; };
+		144DB7BA265D4D12005C541D /* SigninVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144DB7B8265D4D12005C541D /* SigninVC.xib */; };
+		1480EA5426627C95007EC9CD /* BugTrackerCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480EA5226627C95007EC9CD /* BugTrackerCellVC.swift */; };
+		1480EA5526627C95007EC9CD /* BugTrackerCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480EA5326627C95007EC9CD /* BugTrackerCellVC.xib */; };
+		148BF475266679A3009C6E39 /* HeaderCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BF474266679A3009C6E39 /* HeaderCV.swift */; };
+		148BF47D266679BB009C6E39 /* HeaderCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148BF47C266679BB009C6E39 /* HeaderCV.xib */; };
 		14B28167265E941B00BDE10D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B28166265E941B00BDE10D /* UIViewController+Extension.swift */; };
-		14B28171265E956800BDE10D /* SigninVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2816F265E956800BDE10D /* SigninVCViewController.swift */; };
-		14B28172265E956800BDE10D /* SigninVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B28170265E956800BDE10D /* SigninVCViewController.xib */; };
+		14B28171265E956800BDE10D /* BugTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2816F265E956800BDE10D /* BugTrackerVC.swift */; };
+		14B28172265E956800BDE10D /* BugTrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B28170265E956800BDE10D /* BugTrackerVC.xib */; };
 		14B28187265EA5C200BDE10D /* HMSystemBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B28186265EA5C200BDE10D /* HMSystemBoots.swift */; };
 		14B28190265EA61E00BDE10D /* HMSystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2818F265EA61E00BDE10D /* HMSystemInfo.swift */; };
 /* End PBXBuildFile section */
@@ -56,11 +60,15 @@
 		144DB787265D3A94005C541D /* ExampleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144DB78B265D3A94005C541D /* ExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftUITests.swift; sourceTree = "<group>"; };
 		144DB78D265D3A94005C541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		144DB7B7265D4D12005C541D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
-		144DB7B8265D4D12005C541D /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		144DB7B7265D4D12005C541D /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		144DB7B8265D4D12005C541D /* SigninVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SigninVC.xib; sourceTree = "<group>"; };
+		1480EA5226627C95007EC9CD /* BugTrackerCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugTrackerCellVC.swift; sourceTree = "<group>"; };
+		1480EA5326627C95007EC9CD /* BugTrackerCellVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BugTrackerCellVC.xib; sourceTree = "<group>"; };
+		148BF474266679A3009C6E39 /* HeaderCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCV.swift; sourceTree = "<group>"; };
+		148BF47C266679BB009C6E39 /* HeaderCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCV.xib; sourceTree = "<group>"; };
 		14B28166265E941B00BDE10D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		14B2816F265E956800BDE10D /* SigninVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVCViewController.swift; sourceTree = "<group>"; };
-		14B28170265E956800BDE10D /* SigninVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SigninVCViewController.xib; sourceTree = "<group>"; };
+		14B2816F265E956800BDE10D /* BugTrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugTrackerVC.swift; sourceTree = "<group>"; };
+		14B28170265E956800BDE10D /* BugTrackerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BugTrackerVC.xib; sourceTree = "<group>"; };
 		14B28186265EA5C200BDE10D /* HMSystemBoots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSystemBoots.swift; sourceTree = "<group>"; };
 		14B2818F265EA61E00BDE10D /* HMSystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSystemInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,11 +219,29 @@
 		144DB7B3265D40E4005C541D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				14B2816E265E951D00BDE10D /* Signin */,
-				144DB7B7265D4D12005C541D /* MyViewController.swift */,
-				144DB7B8265D4D12005C541D /* MyViewController.xib */,
+				14B2816E265E951D00BDE10D /* BugTracker */,
+				144DB7B7265D4D12005C541D /* SigninVC.swift */,
+				144DB7B8265D4D12005C541D /* SigninVC.xib */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1480EA5126627C58007EC9CD /* BugTrackerCell */ = {
+			isa = PBXGroup;
+			children = (
+				1480EA5226627C95007EC9CD /* BugTrackerCellVC.swift */,
+				1480EA5326627C95007EC9CD /* BugTrackerCellVC.xib */,
+			);
+			path = BugTrackerCell;
+			sourceTree = "<group>";
+		};
+		148BF473266678F7009C6E39 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				148BF474266679A3009C6E39 /* HeaderCV.swift */,
+				148BF47C266679BB009C6E39 /* HeaderCV.xib */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 		14B28164265E8E6100BDE10D /* Libraries */ = {
@@ -236,13 +262,15 @@
 			path = Extentions;
 			sourceTree = "<group>";
 		};
-		14B2816E265E951D00BDE10D /* Signin */ = {
+		14B2816E265E951D00BDE10D /* BugTracker */ = {
 			isa = PBXGroup;
 			children = (
-				14B2816F265E956800BDE10D /* SigninVCViewController.swift */,
-				14B28170265E956800BDE10D /* SigninVCViewController.xib */,
+				148BF473266678F7009C6E39 /* Header */,
+				1480EA5126627C58007EC9CD /* BugTrackerCell */,
+				14B2816F265E956800BDE10D /* BugTrackerVC.swift */,
+				14B28170265E956800BDE10D /* BugTrackerVC.xib */,
 			);
-			path = Signin;
+			path = BugTracker;
 			sourceTree = "<group>";
 		};
 		14B28185265EA59F00BDE10D /* Services */ = {
@@ -366,8 +394,10 @@
 			files = (
 				144DB776265D3A93005C541D /* LaunchScreen.storyboard in Resources */,
 				144DB773265D3A93005C541D /* Assets.xcassets in Resources */,
-				14B28172265E956800BDE10D /* SigninVCViewController.xib in Resources */,
-				144DB7BA265D4D12005C541D /* MyViewController.xib in Resources */,
+				14B28172265E956800BDE10D /* BugTrackerVC.xib in Resources */,
+				1480EA5526627C95007EC9CD /* BugTrackerCellVC.xib in Resources */,
+				144DB7BA265D4D12005C541D /* SigninVC.xib in Resources */,
+				148BF47D266679BB009C6E39 /* HeaderCV.xib in Resources */,
 				144DB771265D3A92005C541D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,12 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1480EA5426627C95007EC9CD /* BugTrackerCellVC.swift in Sources */,
 				14B28187265EA5C200BDE10D /* HMSystemBoots.swift in Sources */,
 				144DB76E265D3A92005C541D /* ViewController.swift in Sources */,
-				14B28171265E956800BDE10D /* SigninVCViewController.swift in Sources */,
+				14B28171265E956800BDE10D /* BugTrackerVC.swift in Sources */,
 				14B28190265EA61E00BDE10D /* HMSystemInfo.swift in Sources */,
+				148BF475266679A3009C6E39 /* HeaderCV.swift in Sources */,
 				144DB76A265D3A92005C541D /* AppDelegate.swift in Sources */,
-				144DB7B9265D4D12005C541D /* MyViewController.swift in Sources */,
+				144DB7B9265D4D12005C541D /* SigninVC.swift in Sources */,
 				14B28167265E941B00BDE10D /* UIViewController+Extension.swift in Sources */,
 				144DB76C265D3A92005C541D /* SceneDelegate.swift in Sources */,
 			);

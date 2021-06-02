@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let timeline = MyViewController()
+        let timeline = SigninVC()
             let navigation = UINavigationController(rootViewController: timeline)
 
             let frame = UIScreen.main.bounds
